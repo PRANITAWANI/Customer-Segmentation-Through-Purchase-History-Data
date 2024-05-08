@@ -1,4 +1,4 @@
-![Screenshot (40)](https://github.com/PRANITAWANI/Customer-Segmentation-Through-Purchase-History-Data/assets/135104675/1ce21576-e6ad-4c53-9aa0-bf688f02693d)
+
 # Customer Segmentation Through Purchase History Data
 
 ## Dataset Information :
@@ -19,3 +19,19 @@ Clean Dataset Info - 2 Million records and 19 columns: user_id, order_id, catego
 - Among 2 million records , 1.5 million user ids are not available.
 - The challenge here was to fill null values of user id from available distinct user id such that it should not affect the consistency of data.
 - Calculated the count of distinct user IDs for each category and assigned random user IDs to null values on basis of category column.
+
+## RFM Model :
+- RFM stands for Recency, Frequency, Monetary.
+- It is a marketing analysis technique used to evaluate customer behavior.
+- It is ideal for numerical data.
+- As purchase dataset includes transactional information like order_id, event_time, price. RFM model will be perfectly fit for this scenario.
+
+## K-Means Clustering :
+- Well-suited for segmenting customers based on RFM metrics.
+- Efficiently partitions the data into clusters by minimizing the sum of squared distances between data points.
+- Assemble RFM score into single feature vector.
+- Apply trained K-means model to make the predictions, assigning each customer to the nearest cluster centroid.
+- Interpret resulting clusters to understand customer segments based on purchasing behavior.
+
+## Visualization using Tableau :
+Plotted graphs that will interpret the segmentation of customers on various factors.[Here are some graphs](![Screenshot (40)](https://github.com/PRANITAWANI/Customer-Segmentation-Through-Purchase-History-Data/assets/135104675/1ce21576-e6ad-4c53-9aa0-bf688f02693d)
