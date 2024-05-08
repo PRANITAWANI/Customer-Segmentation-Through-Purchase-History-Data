@@ -35,4 +35,5 @@ Clean Dataset Info - 2 Million records and 19 columns: user_id, order_id, catego
 
 ## Visualization using Tableau :
 Plotted graphs that will interpret the segmentation of customers on various factors.
-(![Screenshot (40)](https://github.com/PRANITAWANI/Customer-Segmentation-Through-Purchase-History-Data/assets/135104675/1ce21576-e6ad-4c53-9aa0-bf688f02693d)
+
+![Screenshot (40)](https://github.com/PRANITAWANI/Customer-Segmentation-Through-Purchase-History-Data/assets/135104675/1ce21576-e6ad-4c53-9aa0-bf688f02693d)
