@@ -11,6 +11,7 @@ Clean Dataset Info - 2 Million records and 19 columns: user_id, order_id, catego
 
 ## Data Cleaning & Preprocessing :
 .Removed duplicate records.
+
 .Kept the data for year 2020 only as there were only 2 distinct years(1970,2020).
 Removed the records ,where brand values are none.
 Assign category as miscellaneous where null values are present.
