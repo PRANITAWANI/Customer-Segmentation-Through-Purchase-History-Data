@@ -10,7 +10,7 @@ Raw Dataset Info - 2.6 Million records and 8 columns: event_time, order_id, prod
 Clean Dataset Info - 2 Million records and 19 columns: user_id, order_id, category_id, brand, price, cat_1, cat_2, cat_3, max_purchase_by_user, class_id, class_category, recency, frequency, monetary, customer_type, cust_value, Date, Time, spending.
 
 ## Data Cleaning & Preprocessing :
-"*"Removed duplicate records.
+-Removed duplicate records.
 Kept the data for year 2020 only as there were only 2 distinct years(1970,2020).
 Removed the records ,where brand values are none.
 Assign category as miscellaneous where null values are present.
