@@ -14,8 +14,8 @@ Clean Dataset Info - 2 Million records and 19 columns: user_id, order_id, catego
 - Kept the data for year 2020 only as there were only 2 distinct years(1970,2020).
 - Removed the records ,where brand values are none.
 - Assign category as miscellaneous where null values are present.
-Split the category_code column into 3 columns (cat_1,cat_2,cat_3) on the occurrence of dot ‘.’
-Calculated average of price column and assign that value to records where price were zero.
-Among 2 million records , 1.5 million user ids are not available.
-The challenge here was to fill null values of user id from available distinct user id such that it should not affect the consistency of data.
-Calculated the count of distinct user IDs for each category and assigned random user IDs to null values on basis of category column.
+- Split the category_code column into 3 columns (cat_1,cat_2,cat_3) on the occurrence of dot ‘.’
+- Calculated average of price column and assign that value to records where price were zero.
+- Among 2 million records , 1.5 million user ids are not available.
+- The challenge here was to fill null values of user id from available distinct user id such that it should not affect the consistency of data.
+- Calculated the count of distinct user IDs for each category and assigned random user IDs to null values on basis of category column.
